@@ -1,0 +1,6 @@
+create table Student_Data (ID int primary key, FirstName varchar(15) not null, LastName varchar(15) not null, PhoneNumber long, EmailId varchar(50) unique, Address varchar(100), Gender varchar(10), DateOfBirth varchar(15), Education varchar(15), Subject_1 varchar(10), Subject_2 varchar(10));
+
+create table Login_Credentials (ID int primary key,FirstName varchar(15) not null, LastName varchar(15) not null, Username varchar(15)unique, Password varchar(20)not null);
+
+create table Staff_Data (ID int primary key, FirstName varchar(15) not null, LastName varchar(15) not null, PhoneNumber long, EmailId varchar(50) unique, Address varchar(100), Gender varchar(10), DateOfBirth varchar(15), Qualification varchar(15), department varchar(30));
+
